@@ -29,10 +29,10 @@ return
 F1::
 i:= 0
 j:= 1
-while i<=6
+while i<=5
 {
-color := Array[j]
 Send, {Enter}
+color := Array[j]
 sleep 250
 Send, /paint %i% %color%
 sleep 300
